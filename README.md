@@ -1,0 +1,74 @@
+# Web Attack Surface Monitor
+
+A lightweight reconnaissance automation tool designed to identify an organization’s web attack surface by discovering subdomains and filtering live web hosts.
+
+This project focuses on the **reconnaissance phase** of security testing, which is the foundation of bug bounty hunting and red team operations.
+
+---
+
+## 🚀 Features
+
+- Subdomain enumeration using **Subfinder**
+- Live host detection using **Httpx**
+- Automatic output storage for analysis
+- Terminal-based, fast, and scriptable
+- Beginner-friendly and extensible
+
+---
+
+## 🛠 Tools & Technologies Used
+
+- Python 3
+- Subfinder
+- Httpx
+- Linux (WSL / Ubuntu)
+
+---
+
+## 📂 Project Structure
+
+Web-Attack-Surface-Monitor/
+│
+├── main.py
+├── recon/
+│ ├── subdomains.txt
+│ ├── live_hosts.txt
+│ ├── subdomain_enum.py
+│ └── live_hosts.py
+└── README.md
+
+
+---
+
+## ⚙️ How It Works
+
+1. User provides a target domain
+2. The tool enumerates subdomains using Subfinder
+3. Discovered subdomains are saved to a file
+4. Httpx checks which subdomains are live
+5. Live hosts are saved for further testing
+
+---
+
+## ▶️ Usage
+
+```bash
+python3 main.py
+
+=== Web Attack Surface Monitor ===
+Enter target domain: testphp.vulnweb.com
+[+] Finding subdomains...
+[+] Subdomains saved to recon/subdomains.txt
+[+] Checking live hosts...
+[+] Live hosts saved to recon/live_hosts.txt
+[+] Scan completed successfully
+
+🔒 Legal Disclaimer
+
+This tool is intended for educational purposes and authorized security testing only.
+Do not use this tool on systems without proper permission.
+
+👨‍💻 Author
+
+Nandhakumar
+Cyber Security Student | Aspiring Red Team Operator
