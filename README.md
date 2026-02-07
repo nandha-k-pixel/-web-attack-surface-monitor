@@ -1,5 +1,9 @@
 # Web Attack Surface Monitor
 
+**Version:** v1.0.0  
+
+# Web Attack Surface Monitor
+
 A lightweight reconnaissance automation tool designed to identify an organization’s web attack surface by discovering subdomains and filtering live web hosts.
 
 This project focuses on the **reconnaissance phase** of security testing, which is the foundation of bug bounty hunting and red team operations.
@@ -49,6 +53,13 @@ Web-Attack-Surface-Monitor/
 5. Live hosts are saved for further testing
 
 ---
+## Changelog
+
+### v1.0.0
+- Subdomain enumeration using Subfinder
+- Live host detection using Httpx
+- Vulnerability scanning using Nuclei
+- Scan results saved to files
 
 ## ▶️ Usage
 
