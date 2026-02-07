@@ -74,6 +74,74 @@ Enter target domain: testphp.vulnweb.com
 [+] Live hosts saved to recon/live_hosts.txt
 [+] Scan completed successfully
 
+# Web Attack Surface Monitor
+
+**Version:** v1.1.1  
+**Status:** Stable  
+**Category:** Reconnaissance & Vulnerability Scanning
+
+Web Attack Surface Monitor is an automated security reconnaissance tool
+that discovers web assets and scans them for known vulnerabilities using
+industry-standard open-source tools.
+
+---
+
+## 🚀 Features
+
+- Subdomain enumeration using Subfinder
+- Live host detection using Httpx
+- Vulnerability scanning using Nuclei
+- Categorized scanning (CVEs, Exposures, Cloud, DNS)
+- Clean file-based output
+- Beginner-friendly and extensible
+
+---
+
+## 🛠 Tools Used
+
+- Python 3
+- Subfinder
+- Httpx
+- Nuclei
+- Linux (WSL / Ubuntu)
+
+---
+
+## 📂 Project Structure
+web-attack-surface-monitor/
+├── main.py
+├── recon/
+│ ├── subdomains.txt
+│ └── live_hosts.txt
+├── scanner/
+│ └── vuln_scan.py
+├── scans/
+│ ├── cves_results.txt
+│ ├── exposures_results.txt
+│ ├── cloud_results.txt
+│ └── dns_results.txt
+└── README.md
+
+---
+
+## ⚙️ How It Works
+
+1. User provides a target domain
+2. Subdomains are enumerated
+3. Live hosts are identified
+4. Nuclei templates scan live hosts
+5. Results are saved for analysis
+
+---
+
+## ▶️ Usage
+
+```bash
+python3 main.py
+
+## Output
+
+
 🔒 Legal Disclaimer
 
 This tool is intended for educational purposes and authorized security testing only.
