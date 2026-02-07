@@ -140,6 +140,8 @@ web-attack-surface-monitor/
 python3 main.py
 
 ## Output
+<img width="651" height="278" alt="nuclei_scan" src="https://github.com/user-attachments/assets/e47ed871-a4f0-489c-8002-10260ef95823" />
+
 
 
 🔒 Legal Disclaimer
