@@ -140,7 +140,22 @@ web-attack-surface-monitor/
 python3 main.py
 
 ## Output
-<img width="651" height="278" alt="nuclei_scan" src="https://github.com/user-attachments/assets/e47ed871-a4f0-489c-8002-10260ef95823" />
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.7.0
+
+                nuclei.io
+
+[INF] Current nuclei version: v3.7.0 (latest)
+[INF] Current nuclei-templates version: v10.3.8 (latest)
+[INF] New templates added in latest release: 457
+[INF] Templates loaded for current scan: 2
+[INF] Executing 2 signed templates from projectdiscovery/nuclei-templates
+[INF] Scan completed in 3.516844ms. No results found.
+[+] Scan completed successfully
 
 
 
